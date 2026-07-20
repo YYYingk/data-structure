@@ -2,7 +2,7 @@
 
 > 个人学习《数据结构》过程中整理的 C/C++ 代码实现与算法题解集合。
 
-本仓库主要用于记录和复习常见的数据结构、经典算法以及部分 OJ（Online Judge）题目的实现。代码以 **C 语言** 为主，部分 OJ 题解使用 **C++**。
+本仓库主要用于记录和复习常见的数据结构、经典算法以及部分 OJ 题目的实现。代码以 **C 语言** 为主，部分 OJ 题解使用 **C++**。
 
 ---
 
@@ -81,39 +81,6 @@
 
 ---
 
-## 🛠️ 编译与运行
-
-### Visual Studio（推荐）
-
-仓库根目录包含 Visual Studio 解决方案：
-
-```text
-01struct.sln
-01struct.vcxproj
-```
-
-使用 **Visual Studio 2019/2022** 打开 `01struct.sln`，在解决方案资源管理器中选择对应的 `.c` / `.cpp` 文件作为启动项，直接编译运行即可。
-
-### 命令行（单个文件）
-
-对于单个 C 文件，也可以直接使用 GCC/Clang 编译：
-
-```bash
-# 例如编译并运行顺序表示例
-gcc ArrayList.c arraylistmain.c -o arraylist_demo
-./arraylist_demo
-```
-
-部分 OJ 题解为单个 `.cpp` 文件：
-
-```bash
-g++ 链式前向星.cpp -o forward_star
-./forward_star
-```
-
-> 注意：不同模块的 `main` 函数可能冲突，请勿一次性将所有文件同时编译。
-
----
 
 ## 📁 目录说明
 
@@ -122,9 +89,6 @@ g++ 链式前向星.cpp -o forward_star
 ├── *.c / *.h          # 数据结构基础实现
 ├── *.cpp              # 部分算法题解或 C++ 特性实现
 ├── *_main.c / *_Main.c / *main.c   # 对应模块的测试/演示入口
-├── 01struct.sln       # Visual Studio 解决方案
-├── 01struct.vcxproj   # Visual Studio 项目文件
-└── x64/               # 编译生成的可执行文件目录
 ```
 
 ---
