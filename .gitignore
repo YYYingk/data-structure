@@ -1,0 +1,6 @@
+x64
+01struct/01struct
+*.sln
+*.vcxproj
+*.user
+*.filters
